@@ -6,7 +6,7 @@ from pystyle import *
 import os
 
 os.system("cls")
-
+os.system("title FARZAD TEAM DoSer Demo")
 Write.Print("Welcome \nCreated By FARZAD13\nFARZAD TEAM ON TOP!!",Colors.rainbow,interval=0.001)
 time.sleep(2)
 
