@@ -3,11 +3,14 @@ import time
 from time import sleep
 import pystyle
 from pystyle import *
+import os
+
+os.system("cls")
 
 Write.Print("Welcome \nCreated By FARZAD13\nFARZAD TEAM ON TOP!!",Colors.rainbow,interval=0.001)
 time.sleep(2)
 
-url = input("Enter The Url ->")
+url = input("\nEnter The Url ->")
 
 proxy = {
   "proxy":"1.1.1.1",
